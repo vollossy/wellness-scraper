@@ -12,7 +12,7 @@ __author__ = 'roman'
 # regular experssion for check practice years
 years_re = re.compile("\d+")
 
-conn = psycopg2.connect("host=umimag.brand57.ru dbname=wellness user=postgres password=simplepass")
+conn = psycopg2.connect("host=localhost dbname=wellness user=postgres password=simplepass")
 
 
 def doctor_exists(url):
